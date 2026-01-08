@@ -202,19 +202,22 @@ end
 #-------------------------------------------------------------------------------
 # Add "New Game+" option to Load Screen
 #-------------------------------------------------------------------------------
-class UI::LoadPanel
+=begin
+class UI::Load < UI::BaseScreen
   ACTIONS.add(:new_game_plus, {
     :effect => proc { |screen|
       screen.end_screen
       NewGamePlus.start
     }
   })
+end
 
 MenuHandlers.add(:load_screen, :new_game_plus, {
   "name"      => _INTL("New Game Plus"),
   "order"     => 31,
-  "condition" => proc { NewGamePlus.valid? }
+  "condition" => proc { |screen| NewGamePlus.valid? }
 })
+=end
 
 #-------------------------------------------------------------------------------
 # Debug options to save and clear NG+ data

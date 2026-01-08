@@ -1,0 +1,9 @@
+#-------------------------------
+[DECIDUEYEQUILL]
+Name = Decidueye Quill
+NamePlural = Decidueye Quills
+Pocket = HeldItems
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = When held by a Decidueye, this Pokemon's contact moves will be boosted in strength.

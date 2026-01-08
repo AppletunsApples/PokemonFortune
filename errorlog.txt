@@ -637,3 +637,428 @@ Backtrace:
 999_Main.rb:22:in `block in mainFunction'
 003_Errors.rb:85:in `pbCriticalCode'
 999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 09:26:06 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [New Game Plus]
+Exception: SyntaxError
+Message: [New Game Plus] Script.rb:260: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 09:26:24 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [New Game Plus]
+Exception: SyntaxError
+Message: [New Game Plus] Script.rb:157: syntax error, unexpected `end', expecting end-of-input
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 09:27:23 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [New Game Plus]
+Exception: SyntaxError
+Message: [New Game Plus] Script.rb:256: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 09:28:31 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [New Game Plus]
+Exception: NameError
+Message: uninitialized constant UI::LoadPanel::ACTIONS
+
+Backtrace:
+[New Game Plus] Script.rb:206:in `<class:LoadPanel>'
+[New Game Plus] Script.rb:205:in `<main>'
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+
+=================
+
+[2026-01-08 09:32:44 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [New Game Plus]
+Exception: SyntaxError
+Message: [New Game Plus] Script.rb:213: syntax error, unexpected `end', expecting end-of-input
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-08 09:59:07 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: RuntimeError
+Message: Trainer back sprite doesn't exist.
+
+Backtrace:
+007_Battle_Scene_BaseAnimation.rb:104:in `ballTracksHand'
+008_Battle_Scene_Animations.rb:427:in `createProcesses'
+007_Battle_Scene_BaseAnimation.rb:12:in `initialize'
+008_Battle_Scene_Animations.rb:397:in `initialize'
+004_Scene_PlayAnimations.rb:139:in `new'
+004_Scene_PlayAnimations.rb:139:in `block in pbSendOutBattlers'
+004_Scene_PlayAnimations.rb:129:in `each'
+004_Scene_PlayAnimations.rb:129:in `each_with_index'
+004_Scene_PlayAnimations.rb:129:in `pbSendOutBattlers'
+005_Battle_ActionSwitching.rb:300:in `pbSendOut'
+
+=================
+
+[2026-01-08 10:01:21 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `contact?' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [001] Crest-likes.rb:6:in `block in <main>'
+005_Event_Handlers.rb:199:in `trigger'
+009_Battle_ItemEffects.rb:132:in `triggerDamageCalcFromUser'
+[Custom Scripts] [000] Battle.rb:71:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+
+=================
+
+[2026-01-08 10:01:23 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `contact?' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [001] Crest-likes.rb:6:in `block in <main>'
+005_Event_Handlers.rb:199:in `trigger'
+009_Battle_ItemEffects.rb:132:in `triggerDamageCalcFromUser'
+[Custom Scripts] [000] Battle.rb:71:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+
+=================
+
+[2026-01-08 10:03:11 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:03:14 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:03:16 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:04:35 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:07:47 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:12:07 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:12:09 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:12:12 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:12:14 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:14:44 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:14:46 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbBaseDamageMultiplier' for #<Battle::Move::None>
+
+Backtrace:
+[Custom Scripts] [000] Battle.rb:222:in `pbCalcDamageMultipliers'
+003_Move_UsageCalculations.rb:281:in `pbCalcDamage'
+007_Battler_UseMove.rb:674:in `block in pbProcessMoveHit'
+007_Battler_UseMove.rb:666:in `each'
+007_Battler_UseMove.rb:666:in `pbProcessMoveHit'
+007_Battler_UseMove.rb:435:in `block in pbUseMove'
+007_Battler_UseMove.rb:433:in `times'
+007_Battler_UseMove.rb:433:in `pbUseMove'
+007_Battler_UseMove.rb:55:in `block in pbProcessTurn'
+001_PBDebug.rb:9:in `logonerr'
+
+=================
+
+[2026-01-08 10:16:37 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Settings::BAG_MAX_PER_SLOT
+
+Backtrace:
+[Alphabetized Bag] script.rb:9:in `add'
+001_Item_Utilities.rb:434:in `pbTakeItemFromPokemon'
+005_UI_Party.rb:959:in `block in <class:Party>'
+003_UI_base.rb:947:in `perform_action_effect'
+003_UI_base.rb:941:in `perform_action'
+003_UI_base.rb:939:in `perform_action'
+003_UI_base.rb:939:in `perform_action'
+003_UI_base.rb:919:in `block in main'
+003_UI_base.rb:915:in `loop'
+003_UI_base.rb:915:in `main'
+
+=================
+
+[2026-01-08 10:17:18 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: uninitialized constant Settings::BAG_MAX_PER_SLOT
+
+Backtrace:
+[Alphabetized Bag] script.rb:9:in `add'
+001_Item_Utilities.rb:434:in `pbTakeItemFromPokemon'
+005_UI_Party.rb:959:in `block in <class:Party>'
+003_UI_base.rb:947:in `perform_action_effect'
+003_UI_base.rb:941:in `perform_action'
+003_UI_base.rb:939:in `perform_action'
+003_UI_base.rb:939:in `perform_action'
+003_UI_base.rb:919:in `block in main'
+003_UI_base.rb:915:in `loop'
+003_UI_base.rb:915:in `main'
