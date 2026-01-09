@@ -209,7 +209,7 @@ MenuHandlers.add(:pause_menu, :bag, {
 })
 
 MenuHandlers.add(:pause_menu, :pokegear, {
-  "name"      => _INTL("Pokégear"),
+  "name"      => _INTL("Smart-Rotom"),
   "order"     => 40,
   "condition" => proc { next $player.has_pokegear },
   "effect"    => proc { |menu|
