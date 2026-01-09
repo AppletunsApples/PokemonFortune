@@ -294,7 +294,7 @@ NamePlural = Sticker 33s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
-Move = PSYCHESLAM
+Move = SPIRITSLAM
 Description = The user slams an avatar of itself into the target. Deals more damage with a higher Sp. Defense stat.
 #-------------------------------
 [STICKER34]
@@ -681,8 +681,8 @@ NamePlural = Sticker 76s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
-Move = GALE
-Description = Summons five turns of strong winds that boosts wind-based moves.
+Move = LIQUIDATION
+Description = The user slams into the target using a full-force blast of water. This may also lower the target's Defense stat.
 #-------------------------------
 [STICKER77]
 Name = Sticker 77
