@@ -146,7 +146,7 @@ GameData::BagPocket.register({
 # so that's not a problem).
 GameData::BagPocket.register({
   :id            => :Machines,
-  :name          => _INTL("TMs & HMs"),
+  :name          => _INTL("Stickers"),
   :icon_position => 6,
   :order         => 70,
   :auto_sort     => true

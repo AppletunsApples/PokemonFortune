@@ -1,899 +1,899 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[PAGE01]
-Name = Page 01
-NamePlural = Page 01s
+[STICKER01]
+Name = Sticker 01
+NamePlural = Sticker 01s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = WORKUP
 Description = The user is roused, and its Attack and Sp. Atk stats increase.
 #-------------------------------
-[PAGE02]
-Name = Page 02
-NamePlural = Page 02s
+[STICKER02]
+Name = Sticker 02
+NamePlural = Sticker 02s
 Pocket = Machines
 Price = 15000
 FieldUse = TM
 Move = BREAKINGSWIPE
 Description = The user swings its tough tail wildly and attacks all foes. This also lowers their Attack stats.
 #-------------------------------
-[PAGE03]
-Name = Page 03
-NamePlural = Page 03s
+[STICKER03]
+Name = Sticker 03
+NamePlural = Sticker 03s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = WILLOWISP
 Description = The user shoots a sinister flame at the target to inflict a burn.
 #-------------------------------
-[PAGE04]
-Name = Page 04
-NamePlural = Page 04s
+[STICKER04]
+Name = Sticker 04
+NamePlural = Sticker 04s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = CALMMIND
 Description = The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
 #-------------------------------
-[PAGE05]
-Name = Page 05
-NamePlural = Page 05s
+[STICKER05]
+Name = Sticker 05
+NamePlural = Sticker 05s
 Pocket = Machines
 Price = 5000
 FieldUse = TM
 Move = FLIPTURN
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[PAGE06]
-Name = Page 06
-NamePlural = Page 06s
+[STICKER06]
+Name = Sticker 06
+NamePlural = Sticker 06s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = PLAYROUGH
 Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
 #-------------------------------
-[PAGE07]
-Name = Page 07
-NamePlural = Page 07s
+[STICKER07]
+Name = Sticker 07
+NamePlural = Sticker 07s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SNOWSCAPE
 Description = Summons a five-turn snowstorm that boosts the Defense of Ice-type Pokémon.
 #-------------------------------
-[PAGE08]
-Name = Page 08
-NamePlural = Page 08s
+[STICKER08]
+Name = Sticker 08
+NamePlural = Sticker 08s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = BULKUP
 Description = The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.
 #-------------------------------
-[PAGE09]
-Name = Page 09
-NamePlural = Page 09s
+[STICKER09]
+Name = Sticker 09
+NamePlural = Sticker 09s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = REFLECT
 Description = A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
 #-------------------------------
-[PAGE10]
-Name = Page 10
-NamePlural = Page 10s
+[STICKER10]
+Name = Sticker 10
+NamePlural = Sticker 10s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ALLYSWITCH
 Description = The user switches places with an ally. This move's chance of failing rises if it is used in succession.
 #-------------------------------
-[PAGE11]
-Name = Page 11
-NamePlural = Page 11s
+[STICKER11]
+Name = Sticker 11
+NamePlural = Sticker 11s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SUNNYDAY
 Description = The user intensifies the sun for five turns, powering up Fire-type moves.
 #-------------------------------
-[PAGE12]
-Name = Page 12
-NamePlural = Page 12s
+[STICKER12]
+Name = Sticker 12
+NamePlural = Sticker 12s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = AGILITY
 Description = The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
 #-------------------------------
-[PAGE13]
-Name = Page 13
-NamePlural = Page 13s
+[STICKER13]
+Name = Sticker 13
+NamePlural = Sticker 13s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = ICEBEAM
 Description = The target is struck with an icy-cold beam of energy. This may also leave the target frozen.
 #-------------------------------
-[PAGE14]
-Name = Page 14
-NamePlural = Page 14s
+[STICKER14]
+Name = Sticker 14
+NamePlural = Sticker 14s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = BLIZZARD
 Description = A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
 #-------------------------------
-[PAGE15]
-Name = Page 15
-NamePlural = Page 15s
+[STICKER15]
+Name = Sticker 15
+NamePlural = Sticker 15s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = GIGADRAIN
 Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
 #-------------------------------
-[PAGE16]
-Name = Page 16
-NamePlural = Page 16s
+[STICKER16]
+Name = Sticker 16
+NamePlural = Sticker 16s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = LIGHTSCREEN
 Description = A wondrous wall of light is put up to reduce damage from special attacks for five turns.
 #-------------------------------
-[PAGE17]
-Name = Page 17
-NamePlural = Page 17s
+[STICKER17]
+Name = Sticker 17
+NamePlural = Sticker 17s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
 Move = PROTECT
 Description = Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
 #-------------------------------
-[PAGE18]
-Name = Page 18
-NamePlural = Page 18s
+[STICKER18]
+Name = Sticker 18
+NamePlural = Sticker 18s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = RAINDANCE
 Description = The user summons a heavy rain that falls for five turns, powering up Water-type moves.
 #-------------------------------
-[PAGE19]
-Name = Page 19
-NamePlural = Page 19s
+[STICKER19]
+Name = Sticker 19
+NamePlural = Sticker 19s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HONECLAWS
 Description = The user sharpens its claws to boost its Attack stat and accuracy.
 #-------------------------------
-[PAGE20]
-Name = Page 20
-NamePlural = Page 20s
+[STICKER20]
+Name = Sticker 20
+NamePlural = Sticker 20s
 Pocket = Machines
 Price = 7000
 FieldUse = TM
 Move = TRAILBLAZE
 Description = The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.
 #-------------------------------
-[PAGE21]
-Name = Page 21
-NamePlural = Page 21s
+[STICKER21]
+Name = Sticker 21
+NamePlural = Sticker 21s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = TAILWIND
 Description = The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
 #-------------------------------
-[PAGE22]
-Name = Page 22
-NamePlural = Page 22s
+[STICKER22]
+Name = Sticker 22
+NamePlural = Sticker 22s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SOLARBEAM
 Description = A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
 #-------------------------------
-[PAGE23]
-Name = Page 23
-NamePlural = Page 23s
+[STICKER23]
+Name = Sticker 23
+NamePlural = Sticker 23s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SOLARBLADE
 Description = The user gathers light energy into a blade, attacking the target on the next turn.
 #-------------------------------
-[PAGE24]
-Name = Page 24
-NamePlural = Page 24s
+[STICKER24]
+Name = Sticker 24
+NamePlural = Sticker 24s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = THUNDERBOLT
 Description = A strong electric blast crashes down on the target. This may also leave the target with paralysis.
 #-------------------------------
-[PAGE25]
-Name = Page 25
-NamePlural = Page 25s
+[STICKER25]
+Name = Sticker 25
+NamePlural = Sticker 25s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = THUNDER
 Description = A wicked thunderbolt is dropped on the target to inflict damage. This may also paralyze the target.
 #-------------------------------
-[PAGE26]
-Name = Page 26
-NamePlural = Page 26s
+[STICKER26]
+Name = Sticker 26
+NamePlural = Sticker 26s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = EARTHQUAKE
 Description = The user sets off an earthquake that strikes every Pokémon around it.
 #-------------------------------
-[PAGE27]
-Name = Page 27
-NamePlural = Page 27s
+[STICKER27]
+Name = Sticker 27
+NamePlural = Sticker 27s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = ICYWIND
 Description = The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.
 #-------------------------------
-[PAGE28]
-Name = Page 28
-NamePlural = Page 28s
+[STICKER28]
+Name = Sticker 28
+NamePlural = Sticker 28s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
 Move = BULLDOZE
 Description = The user strikes everything around it by stomping down on the ground. This lowers the Speed of those hit.
 #-------------------------------
-[PAGE29]
-Name = Page 29
-NamePlural = Page 29s
+[STICKER29]
+Name = Sticker 29
+NamePlural = Sticker 29s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = PSYCHIC
 Description = The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
 #-------------------------------
-[PAGE30]
-Name = Page 30
-NamePlural = Page 30s
+[STICKER30]
+Name = Sticker 30
+NamePlural = Sticker 30s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SHADOWBALL
 Description = The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.
 #-------------------------------
-[PAGE31]
-Name = Page 31
-NamePlural = Page 31s
+[STICKER31]
+Name = Sticker 31
+NamePlural = Sticker 31s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BRICKBREAK
 Description = The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.
 #-------------------------------
-[PAGE32]
-Name = Page 32
-NamePlural = Page 32s
+[STICKER32]
+Name = Sticker 32
+NamePlural = Sticker 32s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SANDSTORM
 Description = A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types.
 #-------------------------------
-[PAGE33]
-Name = Page 33
-NamePlural = Page 33s
+[STICKER33]
+Name = Sticker 33
+NamePlural = Sticker 33s
 Pocket = Machines
 Price = 50000
 FieldUse = TM
 Move = PSYCHESLAM
 Description = The user slams an avatar of itself into the target. Deals more damage with a higher Sp. Defense stat.
 #-------------------------------
-[PAGE34]
-Name = Page 34
-NamePlural = Page 34s
+[STICKER34]
+Name = Sticker 34
+NamePlural = Sticker 34s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SLUDGEWAVE
 Description = It swamps the area around the user with a giant sludge wave. It may also poison those hit.
 #-------------------------------
-[PAGE35]
-Name = Page 35
-NamePlural = Page 35s
+[STICKER35]
+Name = Sticker 35
+NamePlural = Sticker 35s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FLAMETHROWER
 Description = The target is scorched with an intense blast of fire. This may also leave the target with a burn.
 #-------------------------------
-[PAGE36]
-Name = Page 36
-NamePlural = Page 36s
+[STICKER36]
+Name = Sticker 36
+NamePlural = Sticker 36s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SLUDGEBOMB
 Description = Unsanitary sludge is hurled at the target. This may also poison the target.
 #-------------------------------
-[PAGE37]
-Name = Page 37
-NamePlural = Page 37s
+[STICKER37]
+Name = Sticker 37
+NamePlural = Sticker 37s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HELPINGHAND
 Description = The user assists an ally by boosting the power of its attack.
 #-------------------------------
-[PAGE38]
-Name = Page 38
-NamePlural = Page 38s
+[STICKER38]
+Name = Sticker 38
+NamePlural = Sticker 38s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FIREBLAST
 Description = The target is attacked with an intense blast of all-consuming fire. This may also burn the target.
 #-------------------------------
-[PAGE39]
-Name = Page 39
-NamePlural = Page 39s
+[STICKER39]
+Name = Sticker 39
+NamePlural = Sticker 39s
 Pocket = Machines
 Price = 4000
 FieldUse = TM
 Move = ROCKTOMB
 Description = Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
 #-------------------------------
-[PAGE40]
-Name = Page 40
-NamePlural = Page 40s
+[STICKER40]
+Name = Sticker 40
+NamePlural = Sticker 40s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = FAKEOUT
 Description = An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
 #-------------------------------
-[PAGE41]
-Name = Page 41
-NamePlural = Page 41s
+[STICKER41]
+Name = Sticker 41
+NamePlural = Sticker 41s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BURNANDTURN
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[PAGE42]
-Name = Page 42
-NamePlural = Page 42s
+[STICKER42]
+Name = Sticker 42
+NamePlural = Sticker 42s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = TRIPLEKICK
 Description = A consecutive three-kick attack that becomes more powerful with each successive hit.
 #-------------------------------
-[PAGE43]
-Name = Page 43
-NamePlural = Page 43s
+[STICKER43]
+Name = Sticker 43
+NamePlural = Sticker 43s
 Pocket = Machines
 Price = 6000
 FieldUse = TM
 Move = FLAMECHARGE
 Description = The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.
 #-------------------------------
-[PAGE44]
-Name = Page 44
-NamePlural = Page 44s
+[STICKER44]
+Name = Sticker 44
+NamePlural = Sticker 44s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = REST
 Description = The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.
 #-------------------------------
-[PAGE45]
-Name = Page 45
-NamePlural = Page 45s
+[STICKER45]
+Name = Sticker 45
+NamePlural = Sticker 45s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = POUNCE
 Description = The user attacks by pouncing on the target. This also lowers the target’s Speed stat.
 #-------------------------------
-[PAGE46]
-Name = Page 46
-NamePlural = Page 46s
+[STICKER46]
+Name = Sticker 46
+NamePlural = Sticker 46s
 Pocket = Machines
 Price = 20000
 FieldUse = TM
 Move = WEATHERBALL
 Description = An attack move that varies in power and type depending on the weather.
 #-------------------------------
-[PAGE47]
-Name = Page 47
-NamePlural = Page 47s
+[STICKER47]
+Name = Sticker 47
+NamePlural = Sticker 47s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = COVET
 Description = The user endearingly approaches the target, then steals the target's held item.
 #-------------------------------
-[PAGE48]
-Name = Page 48
-NamePlural = Page 48s
+[STICKER48]
+Name = Sticker 48
+NamePlural = Sticker 48s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = PAINSPLIT
 Description = The user adds its HP to the target's HP, then equally shares the combined HP with the target.
 #-------------------------------
-[PAGE49]
-Name = Page 49
-NamePlural = Page 49s
+[STICKER49]
+Name = Sticker 49
+NamePlural = Sticker 49s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HYDROHOP
 Description = The user hops above the water a few times. Building up more power, it raises the user's Speed stat.
 #-------------------------------
-[PAGE50]
-Name = Page 50
-NamePlural = Page 50s
+[STICKER50]
+Name = Sticker 50
+NamePlural = Sticker 50s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = OVERHEAT
 Description = The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.
 #-------------------------------
-[PAGE51]
-Name = Page 51
-NamePlural = Page 51s
+[STICKER51]
+Name = Sticker 51
+NamePlural = Sticker 51s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SKITTERSMACK
 Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
 #-------------------------------
-[PAGE52]
-Name = Page 52
-NamePlural = Page 52s
+[STICKER52]
+Name = Sticker 52
+NamePlural = Sticker 52s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FOCUSBLAST
 Description = The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.
 #-------------------------------
-[PAGE53]
-Name = Page 53
-NamePlural = Page 53s
+[STICKER53]
+Name = Sticker 53
+NamePlural = Sticker 53s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = DARKPULSE
 Description = The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
 #-------------------------------
-[PAGE54]
-Name = Page 54
-NamePlural = Page 54s
+[STICKER54]
+Name = Sticker 54
+NamePlural = Sticker 54s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FALSESWIPE
 Description = A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
 #-------------------------------
-[PAGE55]
-Name = Page 55
-NamePlural = Page 55s
+[STICKER55]
+Name = Sticker 55
+NamePlural = Sticker 55s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = WATERPULSE
 Description = The user attacks the target with a pulsing blast of water. It may also confuse the target.
 #-------------------------------
-[PAGE56]
-Name = Page 56
-NamePlural = Page 56s
+[STICKER56]
+Name = Sticker 56
+NamePlural = Sticker 56s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = EARTHPOWER
 Description = The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.
 #-------------------------------
-[PAGE57]
-Name = Page 57
-NamePlural = Page 57s
+[STICKER57]
+Name = Sticker 57
+NamePlural = Sticker 57s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FOLLOWME
 Description = The user draws attention to itself, making all targets take aim only at the user.
 #-------------------------------
-[PAGE58]
-Name = Page 58
-NamePlural = Page 58s
+[STICKER58]
+Name = Sticker 58
+NamePlural = Sticker 58s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = CHARGEBEAM
 Description = The target is attacked with a shock wave generated by the user's gaping mouth.
 #-------------------------------
-[PAGE59]
-Name = Page 59
-NamePlural = Page 59s
+[STICKER59]
+Name = Sticker 59
+NamePlural = Sticker 59s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = ZINGZAP
 Description = A strong electric blast crashes down on the target. This may also make the target flinch.
 #-------------------------------
-[PAGE60]
-Name = Page 60
-NamePlural = Page 60s
+[STICKER60]
+Name = Sticker 60
+NamePlural = Sticker 60s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = UTURN
 Description = The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.
 #-------------------------------
-[PAGE61]
-Name = Page 61
-NamePlural = Page 61s
+[STICKER61]
+Name = Sticker 61
+NamePlural = Sticker 61s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SHADOWCLAW
 Description = The user slashes with a sharp claw made from shadows. Critical hits land more easily.
 #-------------------------------
-[PAGE62]
-Name = Page 62
-NamePlural = Page 62s
+[STICKER62]
+Name = Sticker 62
+NamePlural = Sticker 62s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = COACHING
 Description = The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.
 #-------------------------------
-[PAGE63]
-Name = Page 63
-NamePlural = Page 63s
+[STICKER63]
+Name = Sticker 63
+NamePlural = Sticker 63s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = NASTYPLOT
 Description = The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
 #-------------------------------
-[PAGE64]
-Name = Page 64
-NamePlural = Page 64s
+[STICKER64]
+Name = Sticker 64
+NamePlural = Sticker 64s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = AVALANCHE
 Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
 #-------------------------------
-[PAGE65]
-Name = Page 65
-NamePlural = Page 65s
+[STICKER65]
+Name = Sticker 65
+NamePlural = Sticker 65s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ENERGYBALL
 Description = The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.
 #-------------------------------
-[PAGE66]
-Name = Page 66
-NamePlural = Page 66s
+[STICKER66]
+Name = Sticker 66
+NamePlural = Sticker 66s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = DRAGONPULSE
 Description = The target is attacked with a shock wave generated by the user's gaping mouth.
 #-------------------------------
-[PAGE67]
-Name = Page 67
-NamePlural = Page 67s
+[STICKER67]
+Name = Sticker 67
+NamePlural = Sticker 67s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ROOST
 Description = The user lands and rests its body. It restores the user's HP by up to half of its max HP.
 #-------------------------------
-[PAGE68]
-Name = Page 68
-NamePlural = Page 68s
+[STICKER68]
+Name = Sticker 68
+NamePlural = Sticker 68s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = FLORALSWITCH
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[PAGE69]
-Name = Page 69
-NamePlural = Page 69s
+[STICKER69]
+Name = Sticker 69
+NamePlural = Sticker 69s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = SIGNALBEAM
 Description = The user attacks with a sinister beam of light. It may also confuse the target.
 #-------------------------------
-[PAGE70]
-Name = Page 70
-NamePlural = Page 70s
+[STICKER70]
+Name = Sticker 70
+NamePlural = Sticker 70s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = TRICKROOM
 Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
 #-------------------------------
-[PAGE71]
-Name = Page 71
-NamePlural = Page 71s
+[STICKER71]
+Name = Sticker 71
+NamePlural = Sticker 71s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = STONEEDGE
 Description = The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.
 #-------------------------------
-[PAGE72]
-Name = Page 72
-NamePlural = Page 72s
+[STICKER72]
+Name = Sticker 72
+NamePlural = Sticker 72s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = VOLTSWITCH
 Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
 #-------------------------------
-[PAGE73]
-Name = Page 73
-NamePlural = Page 73s
+[STICKER73]
+Name = Sticker 73
+NamePlural = Sticker 73s
 Pocket = Machines
 Price = 8000
 FieldUse = TM
 Move = THUNDERWAVE
 Description = A weak electric charge is launched at the target. It causes paralysis if it hits.
 #-------------------------------
-[PAGE74]
-Name = Page 74
-NamePlural = Page 74s
+[STICKER74]
+Name = Sticker 74
+NamePlural = Sticker 74s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = IRONHEAD
 Description = The foe slams the target with its steel-hard head. It may also make the target flinch.
 #-------------------------------
-[PAGE75]
-Name = Page 75
-NamePlural = Page 75s
+[STICKER75]
+Name = Sticker 75
+NamePlural = Sticker 75s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SWORDSDANCE
 Description = A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.
 #-------------------------------
-[PAGE76]
-Name = Page 76
-NamePlural = Page 76s
+[STICKER76]
+Name = Sticker 76
+NamePlural = Sticker 76s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = GALE
 Description = Summons five turns of strong winds that boosts wind-based moves.
 #-------------------------------
-[PAGE77]
-Name = Page 77
-NamePlural = Page 77s
+[STICKER77]
+Name = Sticker 77
+NamePlural = Sticker 77s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = AIRSLASH
 Description = The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
 #-------------------------------
-[PAGE78]
-Name = Page 78
-NamePlural = Page 78
+[STICKER78]
+Name = Sticker 78
+NamePlural = Sticker 78
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = DIG
 Description = The user burrows, then attacks on the second turn. It can also be used to exit dungeons.
 #-------------------------------
-[PAGE79]
-Name = Page 79
-NamePlural = Page 79s
+[STICKER79]
+Name = Sticker 79
+NamePlural = Sticker 79s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = DAZZLINGGLEAM
 Description = The user damages opposing Pokémon by emitting a powerful flash.
 #-------------------------------
-[PAGE80]
-Name = Page 80
-NamePlural = Page 80s
+[STICKER80]
+Name = Sticker 80
+NamePlural = Sticker 80s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = ROCKSLIDE
 Description = Large boulders are hurled at the opposing team to inflict damage. They may also make the targets flinch.
 #-------------------------------
-[PAGE81]
-Name = Page 81
-NamePlural = Page 81s
+[STICKER81]
+Name = Sticker 81
+NamePlural = Sticker 81s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = XSCISSOR
 Description = The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.
 #-------------------------------
-[PAGE82]
-Name = Page 82
-NamePlural = Page 82s
+[STICKER82]
+Name = Sticker 82
+NamePlural = Sticker 82s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = MUDSHOT
 Description = The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.
 #-------------------------------
-[PAGE83]
-Name = Page 83
-NamePlural = Page 83s
+[STICKER83]
+Name = Sticker 83
+NamePlural = Sticker 83s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = HEATWAVE
 Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
 #-------------------------------
-[PAGE84]
-Name = Page 84
-NamePlural = Page 84s
+[STICKER84]
+Name = Sticker 84
+NamePlural = Sticker 84s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = POISONJAB
 Description = The target is stabbed with a tentacle, arm, or the like steeped in poison. May also poison the target.
 #-------------------------------
-[PAGE85]
-Name = Page 85
-NamePlural = Page 85s
+[STICKER85]
+Name = Sticker 85
+NamePlural = Sticker 85s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = TELEPORT
 Description = The user switches place with a party Pokémon. Also warps to the last Pokémon Center visited.
 #-------------------------------
-[PAGE86]
-Name = Page 86
-NamePlural = Page 86s
+[STICKER86]
+Name = Sticker 86
+NamePlural = Sticker 86s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = POLLENPUFF
 Description = Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
 #-------------------------------
-[PAGE87]
-Name = Page 87
-NamePlural = Page 87s
+[STICKER87]
+Name = Sticker 87
+NamePlural = Sticker 87s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = TAUNT
 Description = The target is taunted into a rage that allows it to use only attack moves for three turns.
 #-------------------------------
-[PAGE88]
-Name = Page 88
-NamePlural = Page 88s
+[STICKER88]
+Name = Sticker 88
+NamePlural = Sticker 88s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BONECHILLER
 Description = The user shoots the opponent with chilly winds that inflict frostbite.
 #-------------------------------
-[PAGE89]
-Name = Page 89
-NamePlural = Page 89s
+[STICKER89]
+Name = Sticker 89
+NamePlural = Sticker 89s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
 Move = BODYPRESS
 Description = The user slams its body into the target. Deals more damage with a higher Defense stat.
 #-------------------------------
-[PAGE90]
-Name = Page 90
-NamePlural = Page 90s
+[STICKER90]
+Name = Sticker 90
+NamePlural = Sticker 90s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = PSYCHOCUT
 Description = The user tears at the target with blades formed by psychic power. Critical hits land more easily.
 #-------------------------------
-[PAGE91]
-Name = Page 91
-NamePlural = Page 91s
+[STICKER91]
+Name = Sticker 91
+NamePlural = Sticker 91s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = RETURN
 Description = A full-power attack that grows more powerful the more the user likes its Trainer.
 #-------------------------------
-[PAGE92]
-Name = Page 92
-NamePlural = Page 92s
+[STICKER92]
+Name = Sticker 92
+NamePlural = Sticker 92s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = HYPERVOICE
 Description = The user lets loose a horribly echoing shout with the power to inflict damage.
 #-------------------------------
-[PAGE93]
-Name = Page 93
-NamePlural = Page 93s
+[STICKER93]
+Name = Sticker 93
+NamePlural = Sticker 93s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SURF
 Description = Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.
 #-------------------------------
-[PAGE94]
-Name = Page 94
-NamePlural = Page 94s
+[STICKER94]
+Name = Sticker 94
+NamePlural = Sticker 94s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = STRENGTH
 Description = The target is slugged with a punch thrown at maximum power, raising the user's Attack stat.
 #-------------------------------
-[PAGE95]
-Name = Page 95
-NamePlural = Page 95s
+[STICKER95]
+Name = Sticker 95
+NamePlural = Sticker 95s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = SKITTERSMACK
 Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
 #-------------------------------
-[PAGE96]
-Name = Page 96
-NamePlural = Page 96s
+[STICKER96]
+Name = Sticker 96
+NamePlural = Sticker 96s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = THIEF
 Description = The user attacks and steals the foe's held item simultaneously.
 #-------------------------------
-[PAGE97]
-Name = Page 97
-NamePlural = Page 97s
+[STICKER97]
+Name = Sticker 97
+NamePlural = Sticker 97s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
-Move = BRINE
-Description = If the target's HP is down to about half, this attack will hit with double the power.
+Move = HEADBUTT
+Description = The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.
 #-------------------------------
-[PAGE98]
-Name = Page 98
-NamePlural = Page 98s
+[STICKER98]
+Name = Sticker 98
+NamePlural = Sticker 98s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = FACADE
 Description = If the user is poisoned, paralyzed, or burned, this attack will hit with double the power.
 #-------------------------------
-[PAGE99]
-Name = Page 99
-NamePlural = Page 99s
+[STICKER99]
+Name = Sticker 99
+NamePlural = Sticker 99s
 Pocket = Machines
 Price = 30000
 FieldUse = TM
 Move = POWERUPPUNCH
 Description = Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.
 #-------------------------------
-[PAGE100]
-Name = Page 100
-NamePlural = Page 100s
+[STICKER100]
+Name = Sticker 100
+NamePlural = Sticker 100s
 Pocket = Machines
 Price = 10000
 FieldUse = TM
