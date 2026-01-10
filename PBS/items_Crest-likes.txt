@@ -25,3 +25,12 @@ Price = 4000
 BPPrice = 25
 Flags = Crest-like
 Description = When held by an Inteleon, this Pokémon's typing changes to that of the move it uses.
+#-------------------------------
+[MORPEKOFUR]
+Name = Morpeko Fur
+NamePlural = Morpeko Fur
+Pocket = HeldItems
+Price = 4000
+BPPrice = 25
+Flags = Crest-like
+Description = When held by an Morpeko, this Pokémon's Normal-type moves change type based on the current form.

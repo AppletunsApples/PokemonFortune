@@ -1,8 +1,6 @@
 Battle::ItemEffects::DamageCalcFromUser.add(:DECIDUEYEQUILL,
   proc { |item, user, target, move, mults, power|
-    next unless user&.pokemon
-    next unless user.item == item
-    next unless user.pokemon.isSpecies?(:DECIDUEYE)
+    next unless user.isSpecies?(:DECIDUEYE)
     mults[:power_multiplier] *= 1.3 unless move.contactMove?
   }
 )
@@ -29,10 +27,18 @@ end
 
 Battle::ItemEffects::DamageCalcFromUser.add(:INTELEONSCALE,
   proc { |item, user, target, move, mults, power|
-    next unless user&.pokemon
-    next unless user.item == item
-    next unless user.pokemon.isSpecies?(:INTELEON)
-    next unless move
+    next unless user.isSpecies?(:INTELEON)
     user.pokemon.types = [move.type]
+  }
+)
+
+Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOFUR,
+  proc { |item, user, move, type|
+    next unless user.isSpecies?(:MORPEKO)
+    next if move.type != :NORMAL
+    form = user.pokemon.form
+    return :DARK if form == 0
+    return :ELECTRIC if form == 1
+    return type
   }
 )

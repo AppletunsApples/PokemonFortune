@@ -38,6 +38,7 @@ LoseText = .
 Pokemon = MORPEKO,10
     Gender = female
     Moves = QUICKATTACK,FAKEOUT,FIREFANG,BULLETSEED
+    Item = MORPEKOFUR
 Pokemon = MANKEY,11
     Gender = male
     Ability = VITALSPIRIT

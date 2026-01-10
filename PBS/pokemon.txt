@@ -7105,7 +7105,7 @@ Evolution = DUSTOX,Level,10
 [DUSTOX]
 Name = Dustox
 Types = BUG,POISON
-BaseStats = 60,50,70,65,50,90
+BaseStats = 60,50,70,65,50,100
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 193
