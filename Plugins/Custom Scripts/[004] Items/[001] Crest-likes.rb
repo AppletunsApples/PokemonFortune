@@ -25,20 +25,74 @@ class Battle::Move::RecoilMove < Battle::Move
   end
 end
 
-Battle::ItemEffects::DamageCalcFromUser.add(:INTELEONSCALE,
-  proc { |item, user, target, move, mults, power|
+Battle::ItemEffects::ModifyMoveBaseType.add(:INTELEONSCALE,
+  proc { |item, type|
     next unless user.isSpecies?(:INTELEON)
-    user.pokemon.types = [move.type]
+    user.pbChangeTypes(move.calcType)
   }
 )
 
 Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOFUR,
-  proc { |item, user, move, type|
+  proc { |item, type|
     next unless user.isSpecies?(:MORPEKO)
     next if move.type != :NORMAL
     form = user.pokemon.form
     return :DARK if form == 0
     return :ELECTRIC if form == 1
     return type
+  }
+)
+
+# Wurmple Evolutions
+  def pbSpeed
+    return 1 if fainted?
+    speed = stat_with_stages(:SPEED)
+    speedMult = 1.0
+    # Ability effects that alter calculated Speed
+    if abilityActive?
+      speedMult = Battle::AbilityEffects.triggerSpeedCalc(self.ability, self, speedMult)
+    end
+    # Item effects that alter calculated Speed
+    if itemActive?
+      speedMult = Battle::ItemEffects.triggerSpeedCalc(self.item, self, speedMult)
+    end
+    # Other effects
+    speedMult *= 2 if pbOwnSide.effects[PBEffects::Tailwind] > 0
+    speedMult /= 2 if pbOwnSide.effects[PBEffects::Swamp] > 0
+    # Paralysis
+    if status == :PARALYSIS && !hasActiveAbility?(:QUICKFEET)
+      speedMult /= (Settings::MECHANICS_GENERATION >= 7) ? 2 : 4
+    end
+    # Crest-likes
+    if item == :BEAUTIFLYSCALE && user.isSpecies?(:BEAUTIFLY)
+      speed = @spatk
+    else 
+      speed = @speed
+    end
+    if item == :DUSTOXSCALE && user.isSpecies?(:DUSTOX)
+      speed = @spdef
+    else
+      speed = @speed
+    end
+    # Badge multiplier
+    if @battle.internalBattle && pbOwnedByPlayer? &&
+       @battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPEED
+      speedMult *= 1.1
+    end
+    # Calculation
+    return [(speed * speedMult).round, 1].max
+  end
+
+Battle::AbilityEffects::AccuracyCalcFromUser.add(:DUSTOXSCALE,
+  proc { |ability, user, target, move, modifiers|
+    next unless user.isSpecies?(:DUSTOX)
+    modifiers[:accuracy_multiplier] *= 1.3
+  }
+)
+
+Battle::AbilityEffects::AccuracyCalcFromUser.add(:BEAUTIFLYSCALE,
+  proc { |ability, user, target, move, modifiers|
+    next unless user.isSpecies?(:BEAUTIFLY)
+    modifiers[:accuracy_multiplier] *= 1.3
   }
 )

@@ -15,7 +15,7 @@ module ItemHandlers
   BattleUsableOnBattler = ItemHandlerHash.new
   BattleUseOnBattler    = ItemHandlerHash.new
   BattleUseOnPokemon    = ItemHandlerHash.new
-  ModifyMoveBaseType      = ItemHandlerHash.new
+  ModifyMoveBaseType    = ItemHandlerHash.new
 
   module_function
 
@@ -69,7 +69,6 @@ module ItemHandlers
   def getUseText(item)
     return UseText.trigger(item)
   end
-
   
   def triggerModifyMoveBaseType(item, user, move, type)
     return trigger(ModifyMoveBaseType, item, user, move, type, ret: type)

@@ -33,4 +33,22 @@ Pocket = HeldItems
 Price = 4000
 BPPrice = 25
 Flags = Crest-like
-Description = When held by an Morpeko, this Pokémon's Normal-type moves change type based on the current form.
+Description = When held by a Morpeko, this Pokémon's Normal-type moves change type based on its current form.
+#-------------------------------
+[BEAUTIFLYSCALE]
+Name = Beautifly Scale
+NamePlural = Beautifly Scales
+Pocket = HeldItems
+Price = 4000
+BPPrice = 25
+Flags = Crest-like
+Description = When held by a Beautifly, its Speed scales to its Sp. Atk and accuracy is boosted.
+#-------------------------------
+[DUSTOXSCALE]
+Name = Dustox Scale
+NamePlural = Dustox Scales
+Pocket = HeldItems
+Price = 4000
+BPPrice = 25
+Flags = Crest-like
+Description = When held by a Dustox, its Speed scales to its Sp. Def and accuracy is boosted.
