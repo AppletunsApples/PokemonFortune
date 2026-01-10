@@ -51,19 +51,18 @@ Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOSCARF,
 )
 
 # Wurmple Evolutions
-  Aight I see. Since you have it defined as "Crest-like items I suppose you plan to add more later. In that case tdef pbSpeed
+def pbSpeed
     return 1 if fainted?
     speed_stat = :SPEED
-
+    # Scarfs
     if itemActive?
       case self.species
       when :BEAUTIFLY
-        speed_stat = :SPECIAL_ATTACK if self.item == :BEAUTIFLYSCALE
+        speed_stat = :SPECIAL_ATTACK if self.item == :BEAUTIFLYSCARF
       when :DUSTOX
-        speed_stat = :SPECIAL_DEFENSE if self.item == :DUSTOXSCALE
+        speed_stat = :SPECIAL_DEFENSE if self.item == :DUSTOXSCARF
       end
     end
-
       # Base stat
     base_speed = case speed_stat
           when :SPECIAL_ATTACK  then @spatk
@@ -72,23 +71,10 @@ Battle::ItemEffects::ModifyMoveBaseType.add(:MORPEKOSCARF,
           end
     stage = @stages[speed_stat] + STAT_STAGE_MAXIMUM
     speed = base_speed * STAT_STAGE_MULTIPLIERS[stage] / STAT_STAGE_DIVISORS[stage]
-    speedMult = 1.0    ```
-
-Haven't tested it but it should let you just add the species, with the crest item and what stat it will increase, and then latter at "base_speed" you just define what stat will utilize
-
-Keep in mind, as you wanted, this will make the speed stat for that pokemon fully irrelevant, as all stat changes to the speed will just be ignored. Paralyzis, Tail Wind, abilities and held items still affect it tho, as those are calculated later, but stat stages are ignored.
-
-Similarly, items and effects that increase/decrease spAtk and SpDef don't affect speed. If you want to you'll need to modify the code further
-
-...or maybe they do, don't have time to test the code sadly, but I guess this should do the trick
-    speedMult = 1.0
+    speedMult = 1.0 
     # Ability effects that alter calculated Speed
     if abilityActive?
       speedMult = Battle::AbilityEffects.triggerSpeedCalc(self.ability, self, speedMult)
-    end
-    # Item effects that alter calculated Speed
-    if itemActive?
-      speedMult = Battle::ItemEffects.triggerSpeedCalc(self.item, self, speedMult)
     end
     # Other effects
     speedMult *= 2 if pbOwnSide.effects[PBEffects::Tailwind] > 0
@@ -97,16 +83,9 @@ Similarly, items and effects that increase/decrease spAtk and SpDef don't affect
     if status == :PARALYSIS && !hasActiveAbility?(:QUICKFEET)
       speedMult /= (Settings::MECHANICS_GENERATION >= 7) ? 2 : 4
     end
-    # Crest-likes
-    if item == :BEAUTIFLYSCALE && user.isSpecies?(:BEAUTIFLY)
-      speed = @spatk
-    else 
-      speed = @speed
-    end
-    if item == :DUSTOXSCALE && user.isSpecies?(:DUSTOX)
-      speed = @spdef
-    else
-      speed = @speed
+    # Other items
+    if itemActive?
+      speedMult = Battle::ItemEffects.triggerSpeedCalc(self.item, self, speedMult)
     end
     # Badge multiplier
     if @battle.internalBattle && pbOwnedByPlayer? &&
@@ -115,7 +94,7 @@ Similarly, items and effects that increase/decrease spAtk and SpDef don't affect
     end
     # Calculation
     return [(speed * speedMult).round, 1].max
-  end
+end
 
 Battle::ItemEffects::AccuracyCalcFromUser.add(:DUSTOXSCARF,
   proc { |ability, user, target, move, modifiers|
