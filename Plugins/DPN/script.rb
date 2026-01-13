@@ -1,7 +1,3 @@
-#######################Settings#############################
-DPN=26
-############################################################
-
 def pbSuggestTrainerName(gender)
     return "Eos"
   # Unreachable
