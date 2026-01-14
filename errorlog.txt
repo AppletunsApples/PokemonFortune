@@ -3009,3 +3009,67 @@ Backtrace:
 001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
 002_MessageConfig.rb:579:in `pbFadeOutIn'
 001_UI_PauseMenu.rb:298:in `block (2 levels) in load_scripts_from_folder'
+
+=================
+
+[2026-01-14 11:58:31 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 1, expected 2)
+
+Backtrace:
+011_Messages.rb:710:in `pbMessageChooseNumber'
+[Story-based Levels] Script.rb:75:in `block (2 levels) in <main>'
+[Story-based Levels] Script.rb:66:in `loop'
+[Story-based Levels] Script.rb:66:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 12:02:08 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:86: syntax error, unexpected '}', expecting `end'
+[Story-based Levels] Script.rb:127: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'
+
+=================
+
+[2026-01-14 12:02:19 -0500]
+[Pokémon Essentials version 21.1]
+
+Error in Plugin: [Story-based Levels]
+Exception: SyntaxError
+Message: [Story-based Levels] Script.rb:87: syntax error, unexpected '}', expecting `end'
+[Story-based Levels] Script.rb:128: syntax error, unexpected end-of-input, expecting '}'
+
+Backtrace:
+005_PluginManager.rb:665:in `eval'
+005_PluginManager.rb:665:in `block (2 levels) in runPlugins'
+005_PluginManager.rb:655:in `each'
+005_PluginManager.rb:655:in `block in runPlugins'
+005_PluginManager.rb:646:in `each'
+005_PluginManager.rb:646:in `runPlugins'
+999_Main.rb:38:in `mainFunctionDebug'
+999_Main.rb:22:in `block in mainFunction'
+003_Errors.rb:85:in `pbCriticalCode'
+999_Main.rb:22:in `mainFunction'

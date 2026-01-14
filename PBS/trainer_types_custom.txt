@@ -3,4 +3,6 @@
 [MAYOR]
 Name = Mayor
 Gender = Other
-BaseMoney = 100
+BaseMoney = 150
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader

@@ -33,7 +33,7 @@ Pokemon = ROWLET,5
     Ability = OVERGROW
     Moves = TACKLE,GROWL
 #-------------------------------
-[MAYOR,Blanc]
+[MAYOR,Gale]
 LoseText = Glad to see some truly new potential prove themselves!
 Pokemon = DUSTOX,10
     Gender = male
