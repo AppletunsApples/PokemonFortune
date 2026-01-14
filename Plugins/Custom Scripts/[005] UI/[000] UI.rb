@@ -10,26 +10,6 @@ MenuHandlers.add(:options_menu, :exp_all_toggle, {
   "set_proc"    => proc { |value, _sceme| $player.has_exp_all = (value == 0)}
 })
 
-# Pause Menu
-MenuHandlers.add(:pause_menu, :quit_game, {
-  "name"      => _INTL("Quit to Title"),
-  "order"     => 90,
-  "effect"    => proc { |menu|
-    menu.pbHideMenu
-    if pbConfirmMessage(_INTL("Are you sure you want to quit the game?"))
-      scene = PokemonSave_Scene.new
-      screen = PokemonSaveScreen.new(scene)
-      screen.pbSaveScreen
-      menu.pbEndScene
-      $scene = Scene_DebugIntro.new
-      next true
-    end
-    menu.pbRefresh
-    menu.pbShowMenu
-    next false
-  }
-})
-
 # Pokegear Menu
 MenuHandlers.add(:pokegear_menu, :pc, {
   "name"      => _INTL("Portable PC"),

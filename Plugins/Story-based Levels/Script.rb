@@ -53,15 +53,10 @@ end
 # Debug Menu
 #-------------------------------------------------------------------------------
 MenuHandlers.add(:debug_menu, :story_level_debug, {
-  "name"        => _INTL("Story Level Debug"),
+  "name"        => _INTL("Story Levels"),
   "parent"      => :field_menu,
-  "description" => _INTL("Toggle Story Level stat-scaling debug options."),
+  "description" => _INTL("Toggle Story Level options."),
   "effect"      => proc {
-    pbStoryLevelDebugMenu
-  }
-})
-
-def pbStoryLevelDebugMenu
   commands = [
     _INTL("Set Story Variable"),
     _INTL("Recalculate All Stats"),
@@ -72,8 +67,16 @@ def pbStoryLevelDebugMenu
     cmd = pbShowCommands(nil, commands)
     case cmd
     when 0
-      var_id = Settings::STORY_VARIABLE
-      pbMessage(_INTL("Story Variable set to {1}.", new_index))
+      params = ChooseNumberParams.new
+      params.setRange(0, Settings::STORY_LEVELS.length - 1) # index in story levels
+      current_index = $game_variables[Settings::STORY_VARIABLE] || 0
+      params.setDefaultValue(current_index)
+      index = pbMessageChooseNumber(
+        _INTL("Set the Story Level (max. {1}).", Settings::STORY_LEVELS.last), params)
+      if index != current_index
+        $game_variables[Settings::STORY_VARIABLE] = index
+        Story_LevelStats.recalc_all_stats
+      end
     when 1
       Story_LevelStats.recalc_all_stats
       pbMessage(_INTL("All party and storage Pokémon stats recalculated."))
@@ -82,7 +85,8 @@ def pbStoryLevelDebugMenu
       pbMessage(_INTL("Current Story Level: {1}", level))
     end
   end
-end
+  }
+})
 
 #===============================================================================
 # Pokemon Class Edits

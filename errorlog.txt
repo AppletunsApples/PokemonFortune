@@ -2789,3 +2789,223 @@ Backtrace:
 001_Debug_Menus.rb:100:in `pbDebugMenu'
 001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
 002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 11:18:49 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbHideMenu' for #<UI::PauseMenu>
+
+Backtrace:
+[Custom Scripts] [000] UI.rb:18:in `block in <main>'
+001_UI_PauseMenu.rb:144:in `perform_action'
+003_UI_base.rb:919:in `block in main'
+003_UI_base.rb:915:in `loop'
+003_UI_base.rb:915:in `main'
+002_Scene_Map.rb:122:in `call_menu'
+002_Scene_Map.rb:214:in `update'
+[Unreal Time] Script.rb:256:in `update'
+002_Scene_Map.rb:247:in `block in main'
+002_Scene_Map.rb:244:in `loop'
+
+=================
+
+[2026-01-14 11:20:32 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Custom Scripts] [000] UI.rb:19:in `block in <main>'
+001_UI_PauseMenu.rb:144:in `perform_action'
+003_UI_base.rb:919:in `block in main'
+003_UI_base.rb:915:in `loop'
+003_UI_base.rb:915:in `main'
+002_Scene_Map.rb:122:in `call_menu'
+002_Scene_Map.rb:214:in `update'
+[Unreal Time] Script.rb:256:in `update'
+002_Scene_Map.rb:247:in `block in main'
+002_Scene_Map.rb:244:in `loop'
+
+=================
+
+[2026-01-14 11:20:57 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `new_index' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:76:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 11:36:07 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NoMethodError
+Message: undefined method `pbMessageNumber' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:80:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+
+=================
+
+[2026-01-14 11:42:02 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:81:in `block (2 levels) in pbStoryLevelDebugMenu'
+011_Messages.rb:650:in `block in pbMessageDisplay'
+011_Messages.rb:558:in `loop'
+011_Messages.rb:558:in `pbMessageDisplay'
+011_Messages.rb:712:in `pbMessageChooseNumber'
+[Story-based Levels] Script.rb:79:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+
+=================
+
+[2026-01-14 11:42:31 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:81:in `block (2 levels) in pbStoryLevelDebugMenu'
+011_Messages.rb:650:in `block in pbMessageDisplay'
+011_Messages.rb:558:in `loop'
+011_Messages.rb:558:in `pbMessageDisplay'
+011_Messages.rb:712:in `pbMessageChooseNumber'
+[Story-based Levels] Script.rb:79:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+
+=================
+
+[2026-01-14 11:43:16 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:80:in `block (2 levels) in pbStoryLevelDebugMenu'
+011_Messages.rb:650:in `block in pbMessageDisplay'
+011_Messages.rb:558:in `loop'
+011_Messages.rb:558:in `pbMessageDisplay'
+011_Messages.rb:712:in `pbMessageChooseNumber'
+[Story-based Levels] Script.rb:79:in `block in pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:71:in `loop'
+[Story-based Levels] Script.rb:71:in `pbStoryLevelDebugMenu'
+[Story-based Levels] Script.rb:60:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+
+=================
+
+[2026-01-14 11:48:42 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:75:in `block (3 levels) in <main>'
+011_Messages.rb:650:in `block in pbMessageDisplay'
+011_Messages.rb:558:in `loop'
+011_Messages.rb:558:in `pbMessageDisplay'
+011_Messages.rb:712:in `pbMessageChooseNumber'
+[Story-based Levels] Script.rb:74:in `block (2 levels) in <main>'
+[Story-based Levels] Script.rb:66:in `loop'
+[Story-based Levels] Script.rb:66:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+
+=================
+
+[2026-01-14 11:50:29 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:75:in `block (3 levels) in <main>'
+011_Messages.rb:650:in `block in pbMessageDisplay'
+011_Messages.rb:558:in `loop'
+011_Messages.rb:558:in `pbMessageDisplay'
+011_Messages.rb:712:in `pbMessageChooseNumber'
+[Story-based Levels] Script.rb:74:in `block (2 levels) in <main>'
+[Story-based Levels] Script.rb:66:in `loop'
+[Story-based Levels] Script.rb:66:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+
+=================
+
+[2026-01-14 11:53:13 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:79:in `block (2 levels) in <main>'
+[Story-based Levels] Script.rb:66:in `loop'
+[Story-based Levels] Script.rb:66:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+001_UI_PauseMenu.rb:298:in `block (2 levels) in load_scripts_from_folder'
+
+=================
+
+[2026-01-14 11:54:07 -0500]
+[Pokémon Essentials version 21.1]
+
+Exception: NameError
+Message: undefined local variable or method `screen' for main:Object
+
+Backtrace:
+[Story-based Levels] Script.rb:79:in `block (2 levels) in <main>'
+[Story-based Levels] Script.rb:66:in `loop'
+[Story-based Levels] Script.rb:66:in `block in <main>'
+006_Event_HandlerCollections.rb:141:in `call'
+001_Debug_Menus.rb:138:in `block in pbDebugMenu'
+001_Debug_Menus.rb:100:in `loop'
+001_Debug_Menus.rb:100:in `pbDebugMenu'
+001_UI_PauseMenu.rb:299:in `block (3 levels) in load_scripts_from_folder'
+002_MessageConfig.rb:579:in `pbFadeOutIn'
+001_UI_PauseMenu.rb:298:in `block (2 levels) in load_scripts_from_folder'
