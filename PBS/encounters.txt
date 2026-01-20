@@ -1,10 +1,18 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[005] # Route 1
+Land,15
+   30,BONSLY,4,6
+   25,HOOTHOOT,4,6
+   20,SKWOVET,4,6
+   15,MANKEY,4,6
+   5,PSYDUCK,4,6
+#-------------------------------
 [006] # Catara City
 Land,15
     40,WURMPLE,4,6
     25,MANKEY,4,6
-    20,AZURILL,4,6
+    20,PSYDUCK,4,6
     15,GULPIN,4,6
 #-------------------------------
 [007] # Granulo Graveyard
@@ -14,6 +22,14 @@ Land,15
    15,SHUPPET,4,6
    5,LITWICK,4,6
    5,PUMPKABOO,4,6
+#-------------------------------
+[009] #  Hive Forest
+Land,15
+   30,WURMPLE,4,6
+   25,BONSLY,4,6
+   20,SKWOVET,4,6
+   15,EKANS,4,6
+   5,MANKEY,4,6
 #-------------------------------
 [013] # Catara Sewers
 Cave,10
